@@ -1,0 +1,337 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #22033b;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e9c3e6;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #22033b;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="file"], input[type="number"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"], button[type="submit"] {
+    background-color: #218838;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover, button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* result container*/
+
+.search-container {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.search-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-container input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Centrar y mejorar la visualización de los resultados */
+.result-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.employee-info {
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.employee-info img {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+/* Form and Button Container */
+.button-container {
+    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Permite que los botones se envuelvan en una nueva línea si no caben en una sola fila */
+    gap: 10px; /* Añade espacio entre los botones */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin: 10px 0; /* Ajuste del margen vertical */
+    flex: 1 1 auto; /* Los botones pueden reducir su tamaño si es necesario */
+    max-width: 200px; /* Limita el ancho máximo de cada botón */
+    
+}
+
+.button:hover {
+    background-color: #156627;
+}
+
+
+
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="file"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #218838;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Miscellaneous */
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a.button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* ----------------------
+
+/* Estilo para el contenedor de CRUD */
+.container-crud {
+    width: 100%;
+    max-width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e9c3e6;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    overflow-x: auto; /* Permite el desplazamiento horizontal si la tabla es más ancha */
+}
+
+/* Estilo de la tabla dentro del contenedor */
+.container-crud table {
+    width: 100%; /* La tabla ocupa el 100% del contenedor */
+    max-width: 100%; /* Asegura que la tabla no se desborde */
+    margin: 20px 0; /* Márgenes superiores e inferiores */
+    border-collapse: collapse; /* Elimina los espacios entre celdas */
+    table-layout: auto; /* Ajusta automáticamente el tamaño de las celdas */
+}
+
+/* Estilo de las celdas de la tabla */
+.container-crud th, .container-crud td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word; /* Permite que el texto largo se ajuste dentro de las celdas */
+}
+
+/* Estilo de la cabecera de la tabla */
+.container-crud th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Estilo de las filas alternadas */
+.container-crud tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para los enlaces dentro de la tabla */
+.container-crud a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Estilo para el efecto hover sobre los enlaces */
+.container-crud a:hover {
+    text-decoration: underline;
+}
+
+
+.search-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    display: inline-block;
+    }
+
+/* ______________________________
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container-crud {
+        max-width: 600px;
+        width: 100%;
+        border: 0;
+        display: block;
+        overflow-x: auto;
+    }
+
+    .container-crud table {
+        max-width: 600px;
+        width: 90%;
+        justify-content: center;
+    }
+
+    /* Ocultar los encabezados normales en dispositivos pequeños */
+    .container-crud th {
+        display: none; /* Esto oculta los encabezados en pantallas pequeñas */
+    }
+
+    /* Mostrar celdas como bloques */
+    .container-crud td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px 15px;
+        position: relative;
+        padding-left: 50%; /* Deja espacio para el encabezado dentro de la celda */
+    }
+
+    /* Mostrar los encabezados dentro de las celdas para móviles */
+    .container-crud td::before {
+        content: attr(data-label); /* Usa el atributo data-label para mostrar el encabezado */
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+        top: 0; /* Coloca el encabezado al principio de la celda */
+    }
+
+    /* Aseguramos que el texto no se vea comprimido */
+    .container-crud td {
+        padding-top: 30px;
+    }
+}
